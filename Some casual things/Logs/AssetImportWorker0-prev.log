@@ -1,0 +1,408 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 15628 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/594dm/OneDrive/桌面/GitHub/Some casual things
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49958
+Successfully changed project path to: C:/Users/594dm/OneDrive/桌面/GitHub/Some casual things
+C:/Users/594dm/OneDrive/桌面/GitHub/Some casual things
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15972] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2743839118 [EditorId] 2743839118 [Version] 1048832 [Id] WindowsEditor(7,yeeio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15972] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2743839118 [EditorId] 2743839118 [Version] 1048832 [Id] WindowsEditor(7,yeeio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 20.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/594dm/OneDrive/桌面/GitHub/Some casual things/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008980 seconds.
+- Loaded All Assemblies, in  0.354 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.221 seconds
+Domain Reload Profiling: 573ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.741 seconds
+Refreshing native plugins compatible for Editor in 7.84 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Some casual things
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1502ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 9.36 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (1.9 MB). Loaded Objects now: 5915.
+Memory consumption went from 223.2 MB to 221.3 MB.
+Total: 4.278000 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.261300 ms MarkObjects: 2.975200 ms  DeleteObjects: 0.629800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 555.528267 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Stone_Damaged_02_Atlased.fbx
+  artifactKey: Guid(f086fb08a63c5b244900cf13cf6ade29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Stone_Damaged_02_Atlased.fbx using Guid(f086fb08a63c5b244900cf13cf6ade29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6288ff1796d88d5a30f25fcad1298d') in 0.103633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.739114 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly
+  artifactKey: Guid(57645ce7d3a8b854fa22565bdff8d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly using Guid(57645ce7d3a8b854fa22565bdff8d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b932b35d89336c52738100cda97d67b7') in 0.000841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.832496 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Round_Stone_Insert_04_Atlased.fbx
+  artifactKey: Guid(427f927ae600cec4faac54e3c835869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Round_Stone_Insert_04_Atlased.fbx using Guid(427f927ae600cec4faac54e3c835869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cabf868b43b308c093c1795a18cafa9') in 0.012291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.252669 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Round_Stone_06_Atlased.fbx
+  artifactKey: Guid(326585b067765a54dafd9524f6bd69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Round_Stone_06_Atlased.fbx using Guid(326585b067765a54dafd9524f6bd69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f25f61ed3ca58ea585091b09a723c8') in 0.012895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 142.270232 seconds.
+  path: Assets/Skybox add-on/Skybox add-on ReadMe.pdf
+  artifactKey: Guid(3f54cad5ac04a4abc8d00a71d9b45d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox add-on/Skybox add-on ReadMe.pdf using Guid(3f54cad5ac04a4abc8d00a71d9b45d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb14c65ddd3633c5f812b038480a3b1') in 0.001432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.573307 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Textures/StreaksTex.png
+  artifactKey: Guid(268ee783e952dcc438a37957514d66f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Textures/StreaksTex.png using Guid(268ee783e952dcc438a37957514d66f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01de0e62297d87ab4237366086751173') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.344204 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Textures/VoronoiTex.png
+  artifactKey: Guid(d06d8a8c41fa7374f8a78e79fb2764c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Textures/VoronoiTex.png using Guid(d06d8a8c41fa7374f8a78e79fb2764c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346d50982ad73bf0cd150391f37a30ca') in 0.010849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 59.742708 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Demo/DemoMeshes
+  artifactKey: Guid(1d99b5238438e774caeaf28812005db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Demo/DemoMeshes using Guid(1d99b5238438e774caeaf28812005db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5177b9c1618faf8fdd0a9abbf2e7e9e6') in 0.000786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.433070 seconds.
+  path: Assets/Skybox add-on
+  artifactKey: Guid(f0548acaaa6728e4ca61577952ee831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox add-on using Guid(f0548acaaa6728e4ca61577952ee831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f38d33873672b98984997b0bb9a308') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 626.266572 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/Prefabs
+  artifactKey: Guid(9e899a749b395784c95dafa60b8ca3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/Prefabs using Guid(9e899a749b395784c95dafa60b8ca3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a996d82c2c62e5b1e22a8b1fb60969') in 0.000851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.154242 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Asian Additional/Asian_Prop_Weapon_Kunai_01.prefab
+  artifactKey: Guid(496de2ce921cfeb428c817359b9db12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Asian Additional/Asian_Prop_Weapon_Kunai_01.prefab using Guid(496de2ce921cfeb428c817359b9db12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9b436224f58d261d0c988b34f7e59a') in 0.020666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 31.013138 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Statue_Buddha_02_Atlased.fbx
+  artifactKey: Guid(28166290e25d0ca4ab4e2b6471debaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Statue_Buddha_02_Atlased.fbx using Guid(28166290e25d0ca4ab4e2b6471debaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03c7fefb64400dbf63a2706d5b29d68') in 0.040543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 71.652725 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Asian Additional/Asian_Prop_Statue_Buddha_Bodhisattva_01.FBX
+  artifactKey: Guid(7227da3356a0d184cad64a8bbb6a40c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Asian Additional/Asian_Prop_Statue_Buddha_Bodhisattva_01.FBX using Guid(7227da3356a0d184cad64a8bbb6a40c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c8348e8f1ef963bddca51dc0256210') in 0.014045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.235031 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Statue_Buddha_Bodhisattva_01_Atlased.fbx
+  artifactKey: Guid(597549194da0edb4586387f4ac49d8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Statue_Buddha_Bodhisattva_01_Atlased.fbx using Guid(597549194da0edb4586387f4ac49d8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a14217a2ab3903a64a39781c3a9ef51') in 0.019408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 82.960398 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Materials
+  artifactKey: Guid(2d15a015f4d9d924a9c2590ad9d6b974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Materials using Guid(2d15a015f4d9d924a9c2590ad9d6b974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029fb1c8eb5b36c70aa6f48c0afa76a7') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.720628 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Wooden_Fence_Barricade_02_Atlased.fbx
+  artifactKey: Guid(ff2bf9e2e84c8d84f9849951ad06d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Wooden_Fence_Barricade_02_Atlased.fbx using Guid(ff2bf9e2e84c8d84f9849951ad06d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c9d2a5f33a532d545f0dffbef26d1d') in 0.012268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 453.217057 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_03_Atlased.fbx
+  artifactKey: Guid(de541a66d918d0949b2f5447837d42c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_03_Atlased.fbx using Guid(de541a66d918d0949b2f5447837d42c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb13a990b05b70d80156bc9f27f8bc1') in 0.027030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.963373 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_01_Atlased.fbx
+  artifactKey: Guid(04927125f9dc5ce43a7c6f0c3080580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_01_Atlased.fbx using Guid(04927125f9dc5ce43a7c6f0c3080580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9057aba29037123da23aceb8ab43c160') in 0.025999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.664296 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Lotus_Pod_01_Atlased.fbx
+  artifactKey: Guid(dc3f5a128a45c1040ab18ae70352f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Lotus_Pod_01_Atlased.fbx using Guid(dc3f5a128a45c1040ab18ae70352f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f4fe2cd8897207b5c27cd55c01e10a') in 0.025584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.695413 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Lotus_Pod_02_Atlased.fbx
+  artifactKey: Guid(6178382b9b0a5fd4c95db2d7d75f00fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Lotus_Pod_02_Atlased.fbx using Guid(6178382b9b0a5fd4c95db2d7d75f00fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783f66f8c8c497de31a0ce707d80e0a2') in 0.012950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.444322 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Cattail_Pod_01_Atlased.fbx
+  artifactKey: Guid(44d0328d9ba16884a9bf694961652de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Cattail_Pod_01_Atlased.fbx using Guid(44d0328d9ba16884a9bf694961652de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6626f340414b2af16ce3c09dd65fd494') in 0.067651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.133805 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Seed_Pod_02_Atlased.fbx
+  artifactKey: Guid(ec5cd46a45d2af842b788f576d61897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Seed_Pod_02_Atlased.fbx using Guid(ec5cd46a45d2af842b788f576d61897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1373d16dfd37e9878bab29dc560f15a0') in 0.027401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.528879 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Flower_Petal_01_Atlased.fbx
+  artifactKey: Guid(0f155eb37cee8244b8b89a3afbd1e509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Flower_Petal_01_Atlased.fbx using Guid(0f155eb37cee8244b8b89a3afbd1e509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db2aab551feb0a7ecdeb82fd544bada') in 0.013406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.097583 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Seed_Pod_01_Atlased.fbx
+  artifactKey: Guid(79e4229701ecc7b4ebd0b17eed3a73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Vegetation/Vegetation_Modular_Rush_Frond_Seed_Pod_01_Atlased.fbx using Guid(79e4229701ecc7b4ebd0b17eed3a73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272ff4e5800b73b03be2374fe5ef8270') in 0.013217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.884547 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Round_Stone_03_Atlased.fbx
+  artifactKey: Guid(5f4f006c0cf1ec946af5ce14da9028a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles/RPG_Tiles_Square_Steps_Round_Stone_03_Atlased.fbx using Guid(5f4f006c0cf1ec946af5ce14da9028a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7c84a9b1695611ab295d95fefcfb71') in 0.014849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.300146 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Zen_Garden_Sand_01_Atlased.fbx
+  artifactKey: Guid(912886467a9c93b419242b625f96e132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Zen_Garden_Sand_01_Atlased.fbx using Guid(912886467a9c93b419242b625f96e132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ab3adc0cef91c648981e1341094c29') in 0.013905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 275.858824 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles
+  artifactKey: Guid(5e2fe73a721ffcd41ac29e35bde5d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/RPG Tiles using Guid(5e2fe73a721ffcd41ac29e35bde5d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626782da07f86b9125cee6487296d78b') in 0.000793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 169.894601 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Straw_Hat_03_Atlased.fbx
+  artifactKey: Guid(c4a550161a0c2b548962ccf7369ba130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Asian Additional/Asian_Prop_Straw_Hat_03_Atlased.fbx using Guid(c4a550161a0c2b548962ccf7369ba130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e78ac55dba884e350c239a458a6edea') in 0.014253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
